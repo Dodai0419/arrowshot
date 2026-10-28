@@ -1,0 +1,12 @@
+arrowshot
+
+The arrow geometry in arrowshot.py (placement, sign junction, bend/straight/zigzag/spiral shafts,
+flared root, head, ring and box marks, size presets and colour presets) is a Python port of
+Sources/BigArrowCore of https://github.com/franzenzenhofer/big-arrow-on-the-screen
+(MIT, commit 8917602), Copyright (c) 2026 Franz Enzenhofer.
+tests/golden-arrow.png is that project's golden snapshot (Tests/BigArrowCoreTests/Fixtures).
+
+The contact-sheet layout (plan_contact_sheet_rows and the cell geometry of
+render_contact_sheet_for_duration) is a Python port of src/render.rs of
+https://github.com/kitlangton/scrawl (MIT, commit 6c151a0), Copyright (c) 2026 Kit Langton.
+tests/upstream_sheet.json was produced by that Rust code, compiled unchanged.
